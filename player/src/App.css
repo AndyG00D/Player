@@ -1,0 +1,29 @@
+@import "./shared/variables.css";
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--white);
+}
+
+.background{
+  position: absolute;
+  width: 100%;
+  top:0;
+  height: 100vh;
+  opacity: 0.3;
+}
+
+.player {
+  background-color: white;
+  width:1300px;
+  height:800px;
+  z-index: 1;
+  display: flex;
+
+  box-shadow: 0 0 20px 10px var(--blue);
+  border-radius: 20px;
+}
+

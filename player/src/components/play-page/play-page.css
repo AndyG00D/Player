@@ -1,0 +1,81 @@
+.play_page{
+    height: 100%;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+}
+
+.play_img{
+    height: 450px;
+    width: 100%;
+    border-top-left-radius: 10px;
+}
+
+.progressBar{
+    width:100%;
+    background-color: var(--white);
+    height:10px;
+    position: absolute;
+    top:445px;
+}
+
+.trackProgress{
+    height: 100%;
+    background-color: var(--blue);
+}
+
+.playButton{
+    position: absolute;
+    top:400px;
+    align-self: center;
+    width:100px;
+    height:100px;
+    background-color: var(--blue);
+    border-radius: 100%;
+    background-image: url("../../shared/imgs/play.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px 5px var(--white);
+}
+
+.pauseButton{
+    position: absolute;
+    top:400px;
+    align-self: center;
+    width:100px;
+    height:100px;
+    background-color: var(--blue);
+    border-radius: 100%;
+    background-image: url("../../shared/imgs/pause.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px 5px var(--white);
+}
+
+.startButton{
+    border: 40px solid var(--blue);
+    border-radius: 100%;
+    height:30px;
+    width:30px;
+    z-index:1;
+    position: absolute;
+    top:400px;
+    align-self: center;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 0 5px 5px var(--white);
+}
+
+.hidden{
+    display:none;
+}
