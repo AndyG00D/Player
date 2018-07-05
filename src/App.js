@@ -4,9 +4,18 @@ import HeaderView from "./shared/Header/HeaderView";
 import Player from "./components/Player/Player";
 import RegisterView from "./components/Register/RegisterView";
 import {BrowserRouter, Route} from 'react-router-dom';
+import { applyMiddleware, compose, createStore } from 'redux';
+import reduxThunk from 'redux-thunk';
+import {Provider} from 'react-redux';
+import rootReducer from './reducers/rootReducer';
+
+const store = createStore(rootReducer, compose(
+    applyMiddleware(reduxThunk),
+    window.devToolsExtension ? window.devToolsExtension() : f => f,
+));
 
 
-export default class App extends React.Component {
+export default class App extends Component {
 
     constructor(props){
         super(props);
@@ -14,6 +23,7 @@ export default class App extends React.Component {
 
   render() {
     return (
+        <Provider store = {store}>
         <BrowserRouter>
         <div className={styles.main}>
             <HeaderView/>
@@ -24,6 +34,7 @@ export default class App extends React.Component {
             <img className={styles.background} src='https://img.etsystatic.com/il/2d8dd1/1185496039/il_fullxfull.1185496039_gqk0.jpg?version=0'/>
         </div>
         </BrowserRouter>
+        </Provider>
     );
   }
 }

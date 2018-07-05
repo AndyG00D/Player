@@ -1,8 +1,10 @@
 import React from 'react';
 import axios from 'axios';
 import ChoosePageView from "./ChoosePageView";
+import {connect} from 'react-redux';
+import {fetchPlaylist} from '../../../actions/fetchPlaylist';
 
-export default class ChoosePage extends React.Component{
+export class ChoosePage extends React.Component{
 
     constructor(props){
         super(props);
@@ -54,11 +56,13 @@ export default class ChoosePage extends React.Component{
             .then((response)=>{
                 this.setState({panelTitle:response.data});
             });
+        this.props.fetchPlaylist(this.state.id);
+        this.setState({panelType: 'Tracks'});
+//        axios.get(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/${this.state.id}/tracks`)
+//            .then((response)=>{
+//                this.setState({panelList:response.data.data, panelType: 'Tracks'});
+//            });
 
-        axios.get(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/${this.state.id}/tracks`)
-            .then((response)=>{
-                this.setState({panelList:response.data.data, panelType: 'Tracks'});
-            });
 
         this.state.inquiries.push(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/${this.state.id}/tracks`);
     }
@@ -81,8 +85,30 @@ export default class ChoosePage extends React.Component{
 
     render() {
         console.log(this.state.panelType);
+        if(this.state.panelType=='Tracks') {
+            console.log('yey');
+            return (
+                <ChoosePageView panelList={this.props.playList} panelType={this.state.panelType}
+                                panelItemClick={this.panelItemClick} trackItemClick={this.trackItemClick}
+                                panelTitle={this.state.panelTitle}/>
+            )
+        }
+        else
         return (
             <ChoosePageView panelList={this.state.panelList} panelType={this.state.panelType} panelItemClick = {this.panelItemClick} trackItemClick = {this.trackItemClick} panelTitle={this.state.panelTitle}/>
         );
     }
 }
+
+const mapStateToProps = store => {
+   const {isLoading, playList, errors} = store;
+   return {
+       isLoading,
+       playList,
+       errors
+   }
+};
+
+export default connect(mapStateToProps, {
+    fetchPlaylist
+})(ChoosePage)
