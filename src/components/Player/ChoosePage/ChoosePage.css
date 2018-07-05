@@ -15,6 +15,7 @@
     z-index: 1;
     width:80%;
     height:30%;
+    min-height:150px;
     text-align: center;
     margin: 30px;
     background-color: var(--blue);
@@ -24,7 +25,7 @@
     justify-content: center;
     color: white;
     font-family: Impact, Charcoal, sans-serif;
-    font-size: 50px;
+    font-size: 200%;
 
 }
 
@@ -41,12 +42,13 @@
 
 .panel{
     z-index: 1;
-    flex-grow: 1;
-    height: 60%;
+
+    max-height:500px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     overflow-y: scroll;
+    margin-bottom: 10px;
 }
 
 .panel::-webkit-scrollbar { width: 0; }

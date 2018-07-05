@@ -1,5 +1,5 @@
 .header{
-    height:7%;
+    height: 50px;
     background-color: var(--blue);
     width: 100%;
     justify-self: start;
@@ -19,12 +19,12 @@
     justify-content: center;
     color: white;
     font-family: Impact, Charcoal, sans-serif;
-    font-size: 28px;
+    font-size: 100%;
     z-index: 1;
     border-right: 4px solid white;
     cursor: pointer;
 }
 
 .headerItem:hover{
-    font-size: 30px;
+    font-size: 120%;
 }
