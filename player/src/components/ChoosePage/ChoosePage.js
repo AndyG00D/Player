@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import ChoosePageView from "./choose-page-view";
+import ChoosePageView from "./ChoosePageView";
 
 export default class ChoosePage extends React.Component{
 
@@ -76,7 +76,7 @@ export default class ChoosePage extends React.Component{
             }
         };
 
-    trackItemClick= (id) => this.props.trackItemClick(id);
+    trackItemClick = (id) => this.props.trackItemClick(id);
 
 
     render() {

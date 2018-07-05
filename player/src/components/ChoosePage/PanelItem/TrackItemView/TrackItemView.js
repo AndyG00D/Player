@@ -1,5 +1,5 @@
 import React from 'react';
-import './track-item.css'
+import './TrackItem.css'
 
 export default function TrackItemView(props){
     return (

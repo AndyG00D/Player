@@ -1,7 +1,6 @@
 import React from 'react';
-import PanelItemView from "./panel-item-view/panel-item-view";
-import AlbumItemView from "./album-item-view/album-item-view";
-import TrackItemView from "./track-item-view/track-item-view";
+import PanelItemView from "./PanelItemView/PanelItemView";
+import TrackItemView from "./TrackItemView/TrackItemView";
 
 export default class PanelItem extends React.Component{
 
@@ -23,15 +22,8 @@ export default class PanelItem extends React.Component{
     };
 
 
-
-
     render() {
-        if (this.props.panelType=='Albums'){
-            return (
-                <AlbumItemView panelItem={this.props.panelItem} panelItemClick = {this.panelItemClick}/>
-            );
-        }
-        else if (this.props.panelType=='Tracks'){
+        if (this.props.panelType=='Tracks'){
             return (
                 <TrackItemView panelItem={this.props.panelItem} trackItemClick = {this.trackItemClick}/>
             );

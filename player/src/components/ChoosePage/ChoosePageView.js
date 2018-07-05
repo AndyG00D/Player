@@ -1,6 +1,6 @@
 import React from 'react';
-import './choose-page.css'
-import PanelItem from "./panel-item/panel-item";
+import './ChoosePage.css'
+import PanelItem from "./PanelItem/PanelItem";
 
 export default function ChoosePageView(props){
     const panelItems = props.panelList.map((item)=><PanelItem  panelItem={item} panelItemClick = {props.panelItemClick} trackItemClick = {props.trackItemClick} panelType={props.panelType}/>);

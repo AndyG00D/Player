@@ -1,11 +1,11 @@
 import React from 'react';
-import PlayPageView from "./play-page-view";
+import PlayPageView from "./PlayPageView";
 
 export default class PlayPage extends React.Component{
 
     constructor(props){
         super(props);
-        this.state = {progress:522};
+        this.state = {progress:0};
         this.audio = '';
     }
 
