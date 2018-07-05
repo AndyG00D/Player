@@ -1,0 +1,10 @@
+.player {
+    background-color: white;
+    width:1300px;
+    height:800px;
+    z-index: 1;
+    display: flex;
+
+    box-shadow: 0 0 20px 10px var(--blue);
+    border-radius: 20px;
+}
