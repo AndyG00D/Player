@@ -1,18 +1,13 @@
 import React, { Component } from 'react';
 import styles from './App.css';
-import HeaderView from "./shared/Header/HeaderView";
-import Player from "./components/Player/Player";
-import RegisterView from "./components/Register/RegisterView";
+import RegisterComponent from "./components/Sign/RegisterComponent";
 import {BrowserRouter, Route} from 'react-router-dom';
-import { applyMiddleware, compose, createStore } from 'redux';
-import reduxThunk from 'redux-thunk';
-import {Provider} from 'react-redux';
-import rootReducer from './reducers/rootReducer';
+import PlayerComponent from "./components/Player/PlayerComponent";
+import HeaderComponent from "./shared/Header/HeaderComponent";
+import {AuthContainer} from "./containers/AuthContainer";
 
-const store = createStore(rootReducer, compose(
-    applyMiddleware(reduxThunk),
-    window.devToolsExtension ? window.devToolsExtension() : f => f,
-));
+
+
 
 
 export default class App extends Component {
@@ -23,18 +18,18 @@ export default class App extends Component {
 
   render() {
     return (
-        <Provider store = {store}>
         <BrowserRouter>
         <div className={styles.main}>
-            <HeaderView/>
+            <HeaderComponent/>
       <div className={styles.body}>
-          <Route exact path='/' component={Player}/>
-          <Route path='/register' component={RegisterView}/>
+          <Route exact path='/' component={PlayerComponent}/>
+          <Route path='/register' component={RegisterComponent}/>
+          <Route path='/auth' component={AuthContainer}/>
+
       </div>
             <img className={styles.background} src='https://img.etsystatic.com/il/2d8dd1/1185496039/il_fullxfull.1185496039_gqk0.jpg?version=0'/>
         </div>
         </BrowserRouter>
-        </Provider>
     );
   }
 }

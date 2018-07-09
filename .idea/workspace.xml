@@ -2,12 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dcc8dce-9f6c-446a-a38f-2c73d5a025c8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/fetchPanelList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChoosePage/ChooseItemComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItemComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePageView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePageView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/fetchPlaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePageView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/ChoosePageComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/PanelItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/PanelItemView/PanelItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/PanelItemView/PanelItemView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/TrackItemView/TrackItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/TrackItemView/TrackItemView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItemComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/PlayPage/PlayPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayPage/PlayPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/PlayPage/PlayPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PlayPageContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/PlayPage/PlayPageView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayPage/PlayPageComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/Player.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Player/Player.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/Player.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Player/PlayerView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Player/PlayerComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Register/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sign/Register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AuthContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Register/RegisterView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sign/RegisterComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Header/HeaderView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Header/HeaderComponent.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,58 +42,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChoosePage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.js">
+      <file leaf-file-name="AuthContainer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/AuthContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+            <state relative-caret-position="315">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#359#716#0" />
-                <element signature="e#734#1326#0" />
-                <element signature="e#2570#2907#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChoosePageView.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePageView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fetchPlaylist.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/fetchPlaylist.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#95#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rootReducer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/rootReducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +59,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -95,6 +71,7 @@
       <find>importLoa</find>
       <find>options</find>
       <find>List</find>
+      <find>props</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,57 +80,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/player/src/components/panel-item/album-item-view.js" />
-        <option value="$PROJECT_DIR$/player/src/components/panel-item/track-item-view.js" />
-        <option value="$PROJECT_DIR$/player/src/components/panel-item/panel-item.css" />
-        <option value="$PROJECT_DIR$/player/src/components/choose-page/choose-page.css" />
-        <option value="$PROJECT_DIR$/player/src/components/panel-item/track-item.css" />
-        <option value="$PROJECT_DIR$/player/src/components/choose-page/panel-item/track-item-view/track-item-view.js" />
-        <option value="$PROJECT_DIR$/player/src/components/choose-page/choose-page-view.js" />
-        <option value="$PROJECT_DIR$/player/src/components/choose-page/panel-item/panel-item.js" />
-        <option value="$PROJECT_DIR$/player/src/components/choose-page/choose-page.js" />
-        <option value="$PROJECT_DIR$/player/src/components/play-page/play-page.js" />
-        <option value="$PROJECT_DIR$/player/src/components/play-page/play-page.css" />
-        <option value="$PROJECT_DIR$/player/src/components/play-page/play-page-view.js" />
-        <option value="$PROJECT_DIR$/player/src/components/ChoosePage/PanelItem/panel-item-view/panel-item-view.js" />
-        <option value="$PROJECT_DIR$/player/src/components/ChoosePage/PanelItem/PnaelItemView/panel-item-view.js" />
-        <option value="$PROJECT_DIR$/player/src/components/ChoosePage/PanelItem/PnaelItemView/PanelItemView.js" />
-        <option value="$PROJECT_DIR$/player/src/components/ChoosePage/ChoosePage.js" />
-        <option value="$PROJECT_DIR$/player/src/components/ChoosePage/PanelItem/PanelItem.js" />
-        <option value="$PROJECT_DIR$/player/src/shared/Header/Header.js" />
-        <option value="$PROJECT_DIR$/player/src/shared/Header/Header.css" />
-        <option value="$PROJECT_DIR$/player/config/webpack.config.dev.js" />
-        <option value="$PROJECT_DIR$/player/config/webpack.config.prod.js" />
-        <option value="$PROJECT_DIR$/player/src/shared/Header/HeaderView.js" />
-        <option value="$PROJECT_DIR$/player/src/components/ChoosePage/ChoosePageView.js" />
-        <option value="$PROJECT_DIR$/player/src/components/ChoosePage/PanelItem/TrackItemView/TrackItemView.js" />
-        <option value="$PROJECT_DIR$/player/src/components/ChoosePage/PanelItem/PanelItemView/PanelItemView.js" />
-        <option value="$PROJECT_DIR$/player/src/components/PlayPage/PlayPage.js" />
-        <option value="$PROJECT_DIR$/player/src/components/PlayPage/PlayPageView.js" />
-        <option value="$PROJECT_DIR$/player/src/components/Register/Register.js" />
-        <option value="$PROJECT_DIR$/player/src/components/Register/Register.css" />
-        <option value="$PROJECT_DIR$/player/src/components/Register/RegisterView.js" />
-        <option value="$PROJECT_DIR$/player/src/App.css" />
-        <option value="$PROJECT_DIR$/player/src/components/Player/Player.css" />
-        <option value="$PROJECT_DIR$/player/src/components/Player/PlayerView.js" />
-        <option value="$PROJECT_DIR$/player/src/components/Player/Player.js" />
-        <option value="$PROJECT_DIR$/player/src/App.js" />
-        <option value="$PROJECT_DIR$/src/shared/Header/HeaderView.js" />
-        <option value="$PROJECT_DIR$/src/components/Register/Register.css" />
-        <option value="$PROJECT_DIR$/src/components/Register/RegisterView.js" />
-        <option value="$PROJECT_DIR$/src/components/Player/PlayPage/PlayPage.css" />
-        <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.css" />
-        <option value="$PROJECT_DIR$/src/components/Player/Player.css" />
-        <option value="$PROJECT_DIR$/src/shared/Header/Header.css" />
-        <option value="$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/PanelItemView/PanelItem.css" />
-        <option value="$PROJECT_DIR$/src/actions/types.js" />
-        <option value="$PROJECT_DIR$/src/reducers/fetchPlaylist.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/actions/fetchPlaylist.js" />
-        <option value="$PROJECT_DIR$/src/reducers/rootReducer.js" />
         <option value="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.js" />
         <option value="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePageView.js" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.js" />
+        <option value="$PROJECT_DIR$/src/components/Player/PlayerView.js" />
+        <option value="$PROJECT_DIR$/src/components/PanelItem/PanelItem.js" />
+        <option value="$PROJECT_DIR$/src/components/PanelItem/PanelItemView.js" />
+        <option value="$PROJECT_DIR$/src/containers/PlayerContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/TrackItem/TrackItemComponent.js" />
+        <option value="$PROJECT_DIR$/src/containers/PanelItemContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/PanelItem/AlbumItemComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/Player/Player.css" />
+        <option value="$PROJECT_DIR$/src/actions/fetchGenresList.js" />
+        <option value="$PROJECT_DIR$/src/actions/fetchAlbumList.js" />
+        <option value="$PROJECT_DIR$/src/actions/fetchArtistsList.js" />
+        <option value="$PROJECT_DIR$/src/actions/fetchPlaylist.js" />
+        <option value="$PROJECT_DIR$/src/actions/fetchPanelList.js" />
+        <option value="$PROJECT_DIR$/src/reducers/isLoading.js" />
+        <option value="$PROJECT_DIR$/src/reducers/errors.js" />
+        <option value="$PROJECT_DIR$/src/actions/fecthSelectedItem.js" />
+        <option value="$PROJECT_DIR$/src/reducers/fetchPanelList.js" />
+        <option value="$PROJECT_DIR$/src/reducers/fetchSelectedItem.js" />
+        <option value="$PROJECT_DIR$/src/components/PanelItem/PanelItemComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/PanelItem/PanelItem.css" />
+        <option value="$PROJECT_DIR$/src/components/Player/PlayerComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItem.css" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItemComponent.js" />
+        <option value="$PROJECT_DIR$/src/actions/types.js" />
+        <option value="$PROJECT_DIR$/src/actions/fetchSelectedTrack.js" />
+        <option value="$PROJECT_DIR$/src/reducers/fetchSelectedTrack.js" />
+        <option value="$PROJECT_DIR$/src/reducers/rootReducer.js" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/ChoosePageComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItemComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItem.css" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.css" />
+        <option value="$PROJECT_DIR$/src/components/PlayPage/PlayPage.css" />
+        <option value="$PROJECT_DIR$/src/containers/PlayPageContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/PlayPage/PlayPageComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/ChooseItemComponent.js" />
+        <option value="$PROJECT_DIR$/src/containers/ChoosePageContainer.js" />
+        <option value="$PROJECT_DIR$/src/core/api-urls.js" />
+        <option value="$PROJECT_DIR$/src/shared/Header/HeaderComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/Auth/Auth.css" />
+        <option value="$PROJECT_DIR$/src/components/Register/RegisterComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/Register/Register.css" />
+        <option value="$PROJECT_DIR$/src/components/Auth/AuthComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/Register/AuthComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/Sign/RegisterComponent.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Sign/AuthComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/Sign/Register.css" />
+        <option value="$PROJECT_DIR$/src/containers/AuthContainer.js" />
       </list>
     </option>
   </component>
@@ -172,10 +149,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
-    <option name="y" value="-11" />
-    <option name="width" value="1297" />
-    <option name="height" value="780" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -201,28 +177,13 @@
               <item name="Player" type="b2602c69:ProjectViewProjectNode" />
               <item name="Player" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Player" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Player" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Player" type="b2602c69:ProjectViewProjectNode" />
               <item name="Player" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Player" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Player" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Player" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Player" type="462c0819:PsiDirectoryNode" />
-              <item name="ChoosePage" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,7 +194,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SellIt" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -241,11 +202,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/actions" />
-      <recent name="$PROJECT_DIR$/src/reducers" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/player/src/components/Player" />
-      <recent name="$PROJECT_DIR$/player/src/shared/imgs" />
+      <recent name="$PROJECT_DIR$/src/components/Register" />
+      <recent name="$PROJECT_DIR$/src/components/ChoosePage" />
+      <recent name="$PROJECT_DIR$/src/components/TrackItem" />
+      <recent name="$PROJECT_DIR$/src/components/PanelItem" />
+      <recent name="$PROJECT_DIR$/src/containers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -277,11 +238,16 @@
       <workItem from="1530783813005" duration="10121000" />
       <workItem from="1530798334706" duration="4107000" />
       <workItem from="1530805048753" duration="6141000" />
+      <workItem from="1530971456362" duration="6224000" />
+      <workItem from="1530994734494" duration="2741000" />
+      <workItem from="1530997833687" duration="6483000" />
+      <workItem from="1531034445404" duration="8236000" />
+      <workItem from="1531063081451" duration="31091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69013000" />
+    <option name="totallyTimeSpent" value="123788000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,16 +259,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1295" height="772" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24942085" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24905661" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924336" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32831326" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32889345" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -313,6 +279,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24905661" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32924336" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32889345" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -327,108 +312,15 @@
           <url>file://$PROJECT_DIR$/src/App.js</url>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.js</url>
-          <line>85</line>
+          <url>file://$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.js</url>
+          <line>98</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Player/PlayPage/PlayPage.js</url>
-          <line>36</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/shared/Header/HeaderView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayerView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#359#716#0" />
-            <element signature="e#734#1326#0" />
-            <element signature="e#2570#2907#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayPage/PlayPageView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayPage/PlayPage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/TrackItemView/TrackItem.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayPage/PlayPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#149#238#0" />
-            <element signature="e#263#334#0" />
-            <element signature="e#368#535#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="84" selection-start-line="51" selection-start-column="84" selection-end-line="51" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#359#716#0" />
-            <element signature="e#734#1326#0" />
-            <element signature="e#2570#2907#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePageView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayPage/PlayPage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -436,49 +328,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayPage/PlayPageView.js">
+    <entry file="file://$PROJECT_DIR$/src/components/PlayPage/PlayPageComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePageView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayPage/PlayPage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayPage/PlayPageView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.css">
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
@@ -488,31 +345,7 @@
     <entry file="file://$PROJECT_DIR$/player/src/components/background/background-view.js" />
     <entry file="file://$PROJECT_DIR$/player/src/components/background/background.css" />
     <entry file="file://$PROJECT_DIR$/player/src/shared/variables.js" />
-    <entry file="file://$PROJECT_DIR$/src/shared/variables.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/TrackItemView/TrackItem.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/player/src/components/ChoosePage/PanelItem/album-item-view/album-item-view.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/PanelItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/player/src/shared/Header/Header.js" />
     <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -531,67 +364,84 @@
     <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Register/Register.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayPage/PlayPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#149#238#0" />
-            <element signature="e#263#334#0" />
-            <element signature="e#368#535#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Register/RegisterView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Register/Register.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/Header/HeaderView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayerView.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.js" />
+    <entry file="file://$PROJECT_DIR$/src/actions/fetchGenresList.js" />
+    <entry file="file://$PROJECT_DIR$/src/actions/fetchAlbumsList.js" />
+    <entry file="file://$PROJECT_DIR$/src/actions/fetchArtistsList.js" />
+    <entry file="file://$PROJECT_DIR$/src/reducers/errors.js" />
+    <entry file="file://$PROJECT_DIR$/src/reducers/isLoading.js" />
+    <entry file="file://$PROJECT_DIR$/src/actions/fetchPanelList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+          <caret selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayPage/PlayPage.css">
+    <entry file="file://$PROJECT_DIR$/src/reducers/fetchPanelList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="30">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/PanelItemView/PanelItemView.js">
+    <entry file="file://$PROJECT_DIR$/src/components/PanelItem/AlbumItemComponent.js" />
+    <entry file="file://$PROJECT_DIR$/src/containers/PlayerContainer.js" />
+    <entry file="file://$PROJECT_DIR$/src/actions/types.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/fetchSelectedItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/fetchSelectedTrack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/fetchSelectedTrack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/rootReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/variables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItem.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="35" selection-start-line="35" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItem.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="32" selection-start-line="32" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -602,117 +452,189 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/Player.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Player/Player.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PlayPage/PlayPage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/PlayPageContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/Player.css">
+    <entry file="file://$PROJECT_DIR$/src/components/PlayPage/PlayPageComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="540">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItemComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/ChooseItemComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/api-urls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayerComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/ChoosePageComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/Header/HeaderComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/shared/Header/Header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Auth/Auth.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="859">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/PanelItemView/PanelItem.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Sign/RegisterComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/ChoosePageContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret selection-end-line="92" selection-end-column="23" />
           <folding>
-            <element signature="e#11#94#0" />
-            <element signature="e#105#180#0" />
-            <element signature="e#194#417#0" />
-            <element signature="e#449#529#0" />
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#getGenres#0;n#ChoosePageContainer#0" />
+            <element signature="n#!!block;n#getArtists#0;n#ChoosePageContainer#0" />
+            <element signature="n#!!block;n#getAlbums#0;n#ChoosePageContainer#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayPage/PlayPageView.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItemComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/TrackItemView/TrackItemView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/types.js">
+    <entry file="file://$PROJECT_DIR$/src/actions/fetchSelectedItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Sign/AuthComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="118" selection-start-line="18" selection-start-column="117" selection-end-line="18" selection-end-column="118" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+        <state relative-caret-position="30">
+          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/rootReducer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Sign/Register.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="183">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/fetchPlaylist.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/AuthContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#359#716#0" />
-            <element signature="e#734#1326#0" />
-            <element signature="e#2570#2907#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePageView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,101 @@
+.track_item{
+  grid-column: 1/5;
+  padding: 15px 0 15px 0;
+  margin:-5px;
+  position: relative;
+  height:50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index:1;
+  cursor: pointer;
+}
+
+.disk{
+    border: 20px solid var(--blue);
+    border-radius: 100%;
+    height:15px;
+    width:15px;
+    z-index:1;
+}
+
+.disk_cover{
+    padding-left: 30px;
+    z-index:1;
+}
+
+.track_inf{
+  flex-grow: 1;
+  font-size: 100%;
+  color:var(--light_grey);
+  padding-left: 30px;
+  z-index:1;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow:hidden;
+}
+
+.track_time{
+    color:var(--light_grey);
+    font-size: 120%;
+    z-index:1;
+    padding-right: 30px;
+}
+
+.track_bkg{
+    background-color: var(--white);
+    opacity: 0.5;
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+
+.track_item:hover .track_bkg{
+    opacity: 0.7;
+    background-color: var(--blue);
+}
+
+.track_item:hover .disk{
+    border: 20px solid white;
+}
+
+.track_item:hover *{
+    color: white;
+    font-size: 120%;
+}
+
+
+
+.track_bkg_c{
+    opacity: 0.7;
+    background-color: var(--blue);
+}
+.disk_c{
+    border: 20px solid white;
+}
+.toWhite_c{
+    color: white;
+    font-size: 120%;
+}
+
+
+.sk-spinner-pulse {
+    margin: auto;
+    border-radius: 100%;
+    animation: sk-spinner-pulse 1.0s infinite ease-in-out;
+}
+
+@keyframes sk-spinner-pulse {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1.0);
+        opacity: 0;
+    }
+}
+
+
+

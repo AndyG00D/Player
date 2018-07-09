@@ -1,6 +1,7 @@
 .player {
     background-color: white;
     width:60%;
+    max-width:800px;
     height:500px;
     z-index: 1;
     display: flex;
