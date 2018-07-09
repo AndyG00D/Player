@@ -1,13 +1,9 @@
 import React from 'react';
-import {connect} from "react-redux";
-import {fetchPanelList} from "../actions/fetchPanelList";
-import {fetchSelectedTrack} from "../actions/fetchSelectedTrack";
-import {fetchSelectedItem} from "../actions/fetchSelectedItem";
-import ChoosePageComponent from "../components/ChoosePage/ChoosePageComponent";
+import ChoosePageComponent from "../components/Player/ChoosePage/ChoosePageView";
 
 
 
-export class ChoosePageContainer extends React.Component{
+export default class ChoosePageContainer extends React.Component{
 
     constructor(props){
         super(props);
@@ -15,7 +11,7 @@ export class ChoosePageContainer extends React.Component{
     }
 
     getGenres(){
-        this.props.fetchPanelList('https://api.deezer.com/genre');
+
     }
 
     panelItemClick = (id)=>{
@@ -41,18 +37,3 @@ function selectedTrackChange(){
     if(document.getElementsByTagName('audio')[0].outerHTML.src) document.getElementsByTagName('audio')[0].play();
 }
 
-const mapStateToProps = store => {
-    const {panelList, selectedTrack, selectedItem} = store;
-    if(selectedTrack) selectedTrackChange();
-    return {
-        panelList,
-        selectedTrack,
-        selectedItem
-    }
-};
-
-export default connect(mapStateToProps, {
-    fetchPanelList,
-    fetchSelectedTrack,
-    fetchSelectedItem
-})(ChoosePageContainer)

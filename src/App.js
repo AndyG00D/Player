@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from './App.css';
 import HeaderView from "./shared/Header/HeaderView";
 import Player from "./components/Player/Player";
-import RegisterView from "./components/Register/RegisterView";
+import Register from "./components/Register/Register";
 import {BrowserRouter, Route} from 'react-router-dom';
 import { applyMiddleware, compose, createStore } from 'redux';
 import reduxThunk from 'redux-thunk';
@@ -29,7 +29,7 @@ export default class App extends Component {
             <HeaderView/>
       <div className={styles.body}>
           <Route exact path='/' component={Player}/>
-          <Route path='/register' component={RegisterView}/>
+          <Route path='/register' component={Register}/>
       </div>
             <img className={styles.background} src='https://img.etsystatic.com/il/2d8dd1/1185496039/il_fullxfull.1185496039_gqk0.jpg?version=0'/>
         </div>
