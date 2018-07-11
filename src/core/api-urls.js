@@ -5,4 +5,5 @@ export class ApiUrls {
     static album = `${environment}/album/`;
     static genre = `${environment}/genre/`;
     static artist = `${environment}/artist/`;
+    static search = `${environment}/search?q=`;
 }

@@ -4,18 +4,18 @@ import axios from "axios";
 export const fetchSelectedItem = (request) =>{
     return function (dispatch){
         dispatch({type: FETCH_SELECTEDITEM_REQUEST});
-        axios.get(request)
-            .then(response=>{
-                dispatch({
-                    type: FETCH_SELECTEDITEM_SUCCESS,
-                    payload: response.data
+            axios.get(request)
+                .then(response => {
+                    dispatch({
+                        type: FETCH_SELECTEDITEM_SUCCESS,
+                        payload: response.data
+                    })
                 })
-            })
-            .catch(err=>{
-                dispatch({
-                    type: FETCH_SELECTEDITEM_FAILURE,
-                    payload:err
-                })
-            });
+                .catch(err => {
+                    dispatch({
+                        type: FETCH_SELECTEDITEM_FAILURE,
+                        payload: err
+                    })
+                });
+        }
     }
-}

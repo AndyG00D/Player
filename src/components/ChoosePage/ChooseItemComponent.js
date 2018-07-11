@@ -7,16 +7,19 @@ export default function ChooseItemComponent(props){
         panelItem,
         panelType,
         panelItemClick,
+        addToPlayList,
+        removeFromPlayList,
         selectedTrack
     } = props;
 
     let selected = selectedTrack==panelItem.id ? true : false;
 
-            return ( panelType === 'Tracks' ?
+            return ( panelType === 'Tracks' || panelType === 'Search' ?
             <TrackItemComponent id = {panelItem.id}
                                 title={panelItem.title}
-                                duration={panelItem.duration}
                                 panelItemClick = {panelItemClick}
+                                addToPlayList = {addToPlayList}
+                                removeFromPlayList = {removeFromPlayList}
                                 selected = {selected}/> :
                     <PanelItemComponent id = {panelItem.id}
                                         name = {panelItem.name}

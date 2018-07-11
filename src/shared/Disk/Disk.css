@@ -1,0 +1,33 @@
+.sk-spinner-pulse {
+    margin: auto;
+    animation: sk-spinner-pulse 1.0s infinite ease-in-out;
+}
+
+@keyframes sk-spinner-pulse {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1.0);
+        opacity: 0;
+    }
+}
+
+.disk{
+    border: 20px solid var(--blue);
+    border-radius: 100%;
+    height:15px;
+    width:15px;
+    z-index:1;
+}
+
+.disk_white{
+    border-color: white;
+}
+
+.preloader{
+    height:50px;
+    width:50px;
+    border: 60px solid var(--blue);
+    border-radius: 100%;
+}

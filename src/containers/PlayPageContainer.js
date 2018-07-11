@@ -35,24 +35,34 @@ export class PlayPageContainer extends React.Component{
     };
 
     previousTrack = () =>{
-        let track = Array.prototype.find.call(this.props.panelList.list, (track)=>track.id==this.props.selectedTrack);
-        let newTrack = Array.prototype.find.call(this.props.panelList.list, (t)=>t.track_position==track.track_position-1);
+        let id = Array.prototype.findIndex.call(this.props.panelList.list, (track)=>track.id==this.props.selectedTrack);
+        let newTrack = this.props.panelList.list[id-1];
         if(newTrack) this.props.fetchSelectedTrack(newTrack.id);
     };
 
     nextTrack = () => {
-        let track = Array.prototype.find.call(this.props.panelList.list, (track)=>track.id==this.props.selectedTrack);
-        let newTrack = Array.prototype.find.call(this.props.panelList.list, (t)=>t.track_position==track.track_position+1);
+        let id = Array.prototype.findIndex.call(this.props.panelList.list, (track)=>track.id==this.props.selectedTrack);
+        let newTrack = this.props.panelList.list[id+1];
         if(newTrack) this.props.fetchSelectedTrack(newTrack.id);
+    };
+
+    trackClick = (e) => {
+        let x = e.clientX - e.target.getBoundingClientRect().left;
+        let currentTime = this.audio.current.duration * x / e.target.clientWidth;
+        let update = (currentTime * 100) / this.audio.current.duration;
+        this.audio.current.currentTime = currentTime;
+        this.setState({ progress: update });
+        this.onPlay();
     };
 
     render() {
         let track = Array.prototype.find.call(this.props.panelList.list, (track)=>track.id==this.props.selectedTrack);
-
+        let img = this.props.selectedItem.item.cover_xl || 'https://img.etsystatic.com/il/2d8dd1/1185496039/il_fullxfull.1185496039_gqk0.jpg?version=0';
+        if(track && track.album) img = track.album.cover_xl;
         return (
-            track ?
+            this.props.panelList.loading && this.props.selectedItem.loading && track ?
             <PlayPageComponent
-                img = {this.props.selectedItem.item.cover_xl}
+                img = {img}
                 preview = {track.preview}
                 name = {track.artist.name}
                 title = {track.title_short}
@@ -62,39 +72,18 @@ export class PlayPageContainer extends React.Component{
                 onPause = {this.onPause}
                 previousTrack = {this.previousTrack}
                 nextTrack = {this.nextTrack}
+                trackClick = {this.trackClick}
                 playButton = {this.playButton}
                 pauseButton = {this.pauseButton}
                 audio = {this.audio}
-            /> :
-                <PlayPageComponent
-                    img = {''}
-                    preview = {''}
-                    name = {''}
-                    title = {''}
-                    progress = {this.state.progress}
-                    onTimeUpdate = {this.onTimeUpdate}
-                    onPlay = {this.onPlay}
-                    onPause = {this.onPause}
-                    previousTrack = {this.previousTrack}
-                    nextTrack = {this.nextTrack}
-                    playButton = {this.playButton}
-                    pauseButton = {this.pauseButton}
-                    audio = {this.audio}
-                />
+            /> :  <PlayPageComponent img={img}/>
         );
     }
 }
 
-function selectedTrackChange(){
-    document.getElementById('startButton').style.display = 'none';
-    document.getElementById('playButton').style.display = 'none';
-    document.getElementById('pauseButton').style.display = 'block';
-    if(document.getElementsByTagName('audio')[0].outerHTML.src) document.getElementsByTagName('audio')[0].play();
-}
 
 const mapStateToProps = store => {
     const {panelList, selectedTrack, selectedItem} = store;
-    if(selectedTrack) selectedTrackChange();
     return {
         panelList,
         selectedTrack,

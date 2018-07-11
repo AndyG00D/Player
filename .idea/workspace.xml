@@ -2,33 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dcc8dce-9f6c-446a-a38f-2c73d5a025c8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/fetchPanelList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ChoosePage/ChooseItemComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItemComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/fetchPlaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/fetchSelectedItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/fetchSelectedItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePageView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/ChoosePageComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/PanelItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/PanelItemView/PanelItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/PanelItemView/PanelItemView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/TrackItemView/TrackItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/ChoosePage/PanelItem/TrackItemView/TrackItemView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItemComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/PlayPage/PlayPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayPage/PlayPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/PlayPage/PlayPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PlayPageContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/PlayPage/PlayPageView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayPage/PlayPageComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/Player.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Player/Player.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/Player.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Player/PlayerView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Player/PlayerComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Register/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sign/Register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AuthContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Register/RegisterView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sign/RegisterComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChoosePage/ChooseItemComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/ChooseItemComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChoosePage/ChoosePageComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/ChoosePageComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItemComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItemComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlayPage/PlayPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayPage/PlayPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlayPage/PlayPageComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayPage/PlayPageComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/ChoosePageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ChoosePageContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/PlayPageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PlayPageContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/api-urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/api-urls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/fetchPanelList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/panelList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/fetchSelectedItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/selectedItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/fetchSelectedTrack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/selectedTrack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/rootReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/Header/HeaderView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Header/HeaderComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/variables.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,20 +35,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AuthContainer.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/AuthContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,46 +61,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePage.js" />
-        <option value="$PROJECT_DIR$/src/components/Player/ChoosePage/ChoosePageView.js" />
-        <option value="$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.js" />
-        <option value="$PROJECT_DIR$/src/components/Player/PlayerView.js" />
-        <option value="$PROJECT_DIR$/src/components/PanelItem/PanelItem.js" />
-        <option value="$PROJECT_DIR$/src/components/PanelItem/PanelItemView.js" />
-        <option value="$PROJECT_DIR$/src/containers/PlayerContainer.js" />
-        <option value="$PROJECT_DIR$/src/components/TrackItem/TrackItemComponent.js" />
-        <option value="$PROJECT_DIR$/src/containers/PanelItemContainer.js" />
-        <option value="$PROJECT_DIR$/src/components/PanelItem/AlbumItemComponent.js" />
         <option value="$PROJECT_DIR$/src/components/Player/Player.css" />
         <option value="$PROJECT_DIR$/src/actions/fetchGenresList.js" />
         <option value="$PROJECT_DIR$/src/actions/fetchAlbumList.js" />
         <option value="$PROJECT_DIR$/src/actions/fetchArtistsList.js" />
         <option value="$PROJECT_DIR$/src/actions/fetchPlaylist.js" />
-        <option value="$PROJECT_DIR$/src/actions/fetchPanelList.js" />
         <option value="$PROJECT_DIR$/src/reducers/isLoading.js" />
         <option value="$PROJECT_DIR$/src/reducers/errors.js" />
         <option value="$PROJECT_DIR$/src/actions/fecthSelectedItem.js" />
         <option value="$PROJECT_DIR$/src/reducers/fetchPanelList.js" />
-        <option value="$PROJECT_DIR$/src/reducers/fetchSelectedItem.js" />
         <option value="$PROJECT_DIR$/src/components/PanelItem/PanelItemComponent.js" />
         <option value="$PROJECT_DIR$/src/components/PanelItem/PanelItem.css" />
         <option value="$PROJECT_DIR$/src/components/Player/PlayerComponent.js" />
         <option value="$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItem.css" />
-        <option value="$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItemComponent.js" />
-        <option value="$PROJECT_DIR$/src/actions/types.js" />
         <option value="$PROJECT_DIR$/src/actions/fetchSelectedTrack.js" />
         <option value="$PROJECT_DIR$/src/reducers/fetchSelectedTrack.js" />
-        <option value="$PROJECT_DIR$/src/reducers/rootReducer.js" />
-        <option value="$PROJECT_DIR$/src/components/ChoosePage/ChoosePageComponent.js" />
-        <option value="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItemComponent.js" />
-        <option value="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItem.css" />
-        <option value="$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.css" />
-        <option value="$PROJECT_DIR$/src/components/PlayPage/PlayPage.css" />
-        <option value="$PROJECT_DIR$/src/containers/PlayPageContainer.js" />
-        <option value="$PROJECT_DIR$/src/components/PlayPage/PlayPageComponent.js" />
-        <option value="$PROJECT_DIR$/src/components/ChoosePage/ChooseItemComponent.js" />
-        <option value="$PROJECT_DIR$/src/containers/ChoosePageContainer.js" />
-        <option value="$PROJECT_DIR$/src/core/api-urls.js" />
         <option value="$PROJECT_DIR$/src/shared/Header/HeaderComponent.js" />
         <option value="$PROJECT_DIR$/src/components/Auth/Auth.css" />
         <option value="$PROJECT_DIR$/src/components/Register/RegisterComponent.js" />
@@ -127,10 +83,35 @@
         <option value="$PROJECT_DIR$/src/components/Auth/AuthComponent.js" />
         <option value="$PROJECT_DIR$/src/components/Register/AuthComponent.js" />
         <option value="$PROJECT_DIR$/src/components/Sign/RegisterComponent.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Sign/AuthComponent.js" />
         <option value="$PROJECT_DIR$/src/components/Sign/Register.css" />
         <option value="$PROJECT_DIR$/src/containers/AuthContainer.js" />
+        <option value="$PROJECT_DIR$/src/shared/Button/Button.css" />
+        <option value="$PROJECT_DIR$/src/reducers/fetchSelectedItem.js" />
+        <option value="$PROJECT_DIR$/src/components/PlayPage/PlayPage.css" />
+        <option value="$PROJECT_DIR$/src/actions/types.js" />
+        <option value="$PROJECT_DIR$/src/actions/clearSelectedItem.js" />
+        <option value="$PROJECT_DIR$/src/actions/fetchSelectedItem.js" />
+        <option value="$PROJECT_DIR$/src/reducers/selectedItem.js" />
+        <option value="$PROJECT_DIR$/src/actions/fetchPanelList.js" />
+        <option value="$PROJECT_DIR$/src/reducers/panelList.js" />
+        <option value="$PROJECT_DIR$/src/shared/Button/ButtonComponent.js" />
+        <option value="$PROJECT_DIR$/src/shared/Disk/DiskComponent.js" />
+        <option value="$PROJECT_DIR$/src/shared/Disk/Disk.css" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.css" />
+        <option value="$PROJECT_DIR$/src/reducers/rootReducer.js" />
+        <option value="$PROJECT_DIR$/src/core/api-urls.js" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItemComponent.js" />
+        <option value="$PROJECT_DIR$/src/reducers/selectedTrack.js" />
+        <option value="$PROJECT_DIR$/src/components/PlayPage/PlayPageComponent.js" />
+        <option value="$PROJECT_DIR$/src/containers/PlayPageContainer.js" />
+        <option value="$PROJECT_DIR$/src/shared/variables.css" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/ChooseItemComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/ChoosePageComponent.js" />
+        <option value="$PROJECT_DIR$/src/containers/ChoosePageContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItemComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItem.css" />
       </list>
     </option>
   </component>
@@ -161,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,24 +159,18 @@
               <item name="Player" type="b2602c69:ProjectViewProjectNode" />
               <item name="Player" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Player" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Player" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="setState&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SellIt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../other projects/flamingoPlayer" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -243,11 +219,13 @@
       <workItem from="1530997833687" duration="6483000" />
       <workItem from="1531034445404" duration="8236000" />
       <workItem from="1531063081451" duration="31091000" />
+      <workItem from="1531230222200" duration="30001000" />
+      <workItem from="1531314172782" duration="9428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123788000" />
+    <option name="totallyTimeSpent" value="163217000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,12 +243,12 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924336" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32889345" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -283,19 +261,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24905661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924336" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32889345" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -317,34 +295,10 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PlayPage/PlayPageComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/components/background/background-view.js" />
-    <entry file="file://$PROJECT_DIR$/player/src/components/background/background.css" />
-    <entry file="file://$PROJECT_DIR$/player/src/shared/variables.js" />
     <entry file="file://$PROJECT_DIR$/player/src/components/ChoosePage/PanelItem/album-item-view/album-item-view.js" />
     <entry file="file://$PROJECT_DIR$/player/src/shared/Header/Header.js" />
     <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
@@ -370,78 +324,12 @@
     <entry file="file://$PROJECT_DIR$/src/actions/fetchArtistsList.js" />
     <entry file="file://$PROJECT_DIR$/src/reducers/errors.js" />
     <entry file="file://$PROJECT_DIR$/src/reducers/isLoading.js" />
-    <entry file="file://$PROJECT_DIR$/src/actions/fetchPanelList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/fetchPanelList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PanelItem/AlbumItemComponent.js" />
     <entry file="file://$PROJECT_DIR$/src/containers/PlayerContainer.js" />
-    <entry file="file://$PROJECT_DIR$/src/actions/types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/fetchSelectedItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/fetchSelectedTrack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/fetchSelectedTrack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/rootReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/variables.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItem.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="35" selection-start-line="35" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItem.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="32" selection-start-line="32" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -459,94 +347,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PlayPage/PlayPage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/PlayPageContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PlayPage/PlayPageComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItemComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/ChooseItemComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/api-urls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayerComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/ChoosePageComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shared/Header/HeaderComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,13 +361,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Auth/Auth.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Auth/Auth.css" />
     <entry file="file://$PROJECT_DIR$/src/components/Sign/RegisterComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -571,53 +369,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/ChoosePageContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="92" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="n#!!block;n#getGenres#0;n#ChoosePageContainer#0" />
-            <element signature="n#!!block;n#getArtists#0;n#ChoosePageContainer#0" />
-            <element signature="n#!!block;n#getAlbums#0;n#ChoosePageContainer#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItemComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/fetchSelectedItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Sign/AuthComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="118" selection-start-line="18" selection-start-column="117" selection-end-line="18" selection-end-column="118" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -634,6 +389,261 @@
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/Button/Button.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PlayPage/PlayPage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/fetchSelectedTrack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/clearSelectedItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/fetchSelectedItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/fetchPanelList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/panelList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/Button/ButtonComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/Disk/DiskComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/Disk/Disk.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/ChoosePage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+          <folding>
+            <element signature="e#12#260#0" />
+            <element signature="e#631#756#0" />
+            <element signature="e#766#1022#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/rootReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/api-urls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Player/PlayerComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/selectedItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/selectedTrack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/PanelItem/PanelItemComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/variables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/PlayPageContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#PlayPageContainer#0" />
+            <element signature="e#629#780#0" />
+            <element signature="e#799#955#0" />
+            <element signature="e#975#1132#0" />
+            <element signature="e#1160#1475#0" />
+            <element signature="e#1500#1960#0" />
+            <element signature="e#1842#2192#0" />
+            <element signature="n#!!block;n#render#0;n#PlayPageContainer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PlayPage/PlayPageComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItemComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="97" selection-start-line="31" selection-start-column="97" selection-end-line="31" selection-end-column="97" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/ChooseItemComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/ChoosePageComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="23" column="113" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="23" selection-end-column="113" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/ChoosePageContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="130" column="41" selection-start-line="130" selection-start-column="41" selection-end-line="130" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#getGenres#0;n#ChoosePageContainer#0" />
+            <element signature="n#!!block;n#getArtists#0;n#ChoosePageContainer#0" />
+            <element signature="n#!!block;n#getAlbums#0;n#ChoosePageContainer#0" />
+            <element signature="n#!!block;n#getTracks#0;n#ChoosePageContainer#0" />
+            <element signature="n#!!block;n#getTrack#0;n#ChoosePageContainer#0" />
+            <element signature="e#2067#2644#0" />
+            <element signature="e#2672#3516#0" />
+            <element signature="e#3550#3886#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ChoosePage/TrackItem/TrackItem.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+          <folding>
+            <element signature="e#11#217#0" />
+            <element signature="e#230#272#0" />
+            <element signature="e#284#473#0" />
           </folding>
         </state>
       </provider>
